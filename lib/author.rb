@@ -1,10 +1,10 @@
-require 'pry'
+class Author
+  attr_accessor :name
+  attr_reader :posts
 
-# class Author
-#   attr_accessor :name
-#
-#   def initialize
-#     @name = name
-#   end
-#
-# end
+  def initialize
+    @name = name
+    @posts = []
+  end
+
+end
