@@ -13,7 +13,7 @@ class Author
   end
 
   def add_post(post)
-    post_count += 1
+    @@post_count += 1
     post = Post.new
     @@all << post
   end
