@@ -22,4 +22,5 @@ class Author
     p = Post.new(name)
     self.add_post(p)
     p
+  end
 end
