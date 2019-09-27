@@ -15,4 +15,5 @@ class Post
     post_count += 1
     post = Post.new
     @@all << post
+  end
 end
